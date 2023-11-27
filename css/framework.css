@@ -15,6 +15,35 @@
 .align-c {
   align-items: center;
 }
+
+.space-between {
+  justify-content: space-between;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.d-block {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .hide-mob {
+    display: none;
+  }
+  .block-mob {
+    display: block;
+  }
+}
 /* End Box */
 
 /* Start Padding + Margin */
@@ -30,12 +59,40 @@
   padding: 20px;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .m-20 {
   margin: 20px;
 }
 
 .mt-0 {
   margin-top: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 /* End Padding + Margin */
 
@@ -44,8 +101,48 @@
   background-color: white;
 }
 
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.bg-orange {
+  background-color: var(--orange-color);
+}
+
+.bg-green {
+  background-color: var(--green-color);
+}
+
+.c-orange {
+  color: var(--orange-color);
+}
+
+.c-green {
+  color: var(--green-color);
+}
+
+.c-red {
+  color: var(--red-color);
+}
+
 .c-black {
   color: black;
+}
+
+.c-grey {
+  color: var(--grey-color);
+}
+
+.c-white {
+  color: white;
+}
+
+.c-blue {
+  color: var(--blue-color);
 }
 /* End Color */
 
@@ -64,13 +161,39 @@
   text-align: center;
 }
 
+.fs-13 {
+  font-size: 13px;
+}
+
 .fs-14 {
   font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .txt-c-mob {
+    text-align: center;
+  }
 }
 
 /* End Font */
 
 /* Start Border */
+.b-none {
+  border: none;
+}
+
 .rad-6 {
   border-radius: 6px;
 }
@@ -80,11 +203,19 @@
 }
 /* End Border */
 
-@media (max-width: 767px) {
-  .hide-mob {
-    display: none;
-  }
+/* Start Width and height */
+.w-full {
+  width: 100%;
 }
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-full {
+  height: 100vh;
+}
+/* End Width and height */
 
 /* Start Components */
 .between-flex {
@@ -92,14 +223,31 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-250 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.grid-300 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.grid-450 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
 /* End Components */
-
-/* Start Width and height */
-.w-full {
-  width: 100%;
-}
-
-.h-full {
-  height: 100vh;
-}
-/* End Width and height */
