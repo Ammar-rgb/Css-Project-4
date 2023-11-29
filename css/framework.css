@@ -131,6 +131,10 @@
     margin-bottom: 10px;
 }
 
+.mb-15 {
+    margin-bottom: 15px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -242,6 +246,10 @@
     border: none;
 }
 
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
 .rad-6 {
     border-radius: 6px;
 }
@@ -301,5 +309,4 @@
     padding: 4px 10px;
     border-radius: 6px;
 }
-
 /* End Components */
