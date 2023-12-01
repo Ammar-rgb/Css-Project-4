@@ -87,6 +87,10 @@
     margin: 0;
 }
 
+.m-15 {
+    margin: 15px;
+}
+
 .m-20 {
     margin: 20px;
 }
@@ -195,6 +199,10 @@
 
 .c-blue {
     color: var(--blue-color);
+}
+
+.c-eee {
+    color: #eee;
 }
 /* End Color */
 
