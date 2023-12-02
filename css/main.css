@@ -1157,7 +1157,6 @@ ul {
     }
 }
 
-
 .courses-page .course {
     overflow: hidden;
 }
@@ -1181,9 +1180,8 @@ ul {
 }
 
 .courses-page .course .info {
-border-top: 1px solid #eee;
-font-size: 13px;
-
+    border-top: 1px solid #eee;
+    font-size: 13px;
 }
 
 .courses-page .course .info .title {
@@ -1192,10 +1190,7 @@ font-size: 13px;
     transform: translateX(-50%);
     font-size: 13px;
     top: -13px;
-
 }
-
-
 
 /* E d Courses */
 /* Start Animation */
