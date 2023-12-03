@@ -1253,6 +1253,15 @@ ul {
 
 /* Start Files */
 .files-page {
+    flex-direction: row-reverse;
+    align-items: start;
+}
+
+@media (max-width: 767px) {
+    .files-page {
+        flex-direction: column;
+        align-items: normal;
+    }
 }
 
 .files-page .files-stats {
@@ -1304,8 +1313,8 @@ ul {
 }
 
 .files-page .files-content {
-flex: 1;
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    flex: 1;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .files-page .files-content img {
@@ -1319,23 +1328,8 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .files-page .files-content .info {
-border-top: 1px solid #eee;
+    border-top: 1px solid #eee;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* End Files */
 /* Start Animation */
