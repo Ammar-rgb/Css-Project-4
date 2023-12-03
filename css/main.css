@@ -1195,7 +1195,7 @@ ul {
 
 /* Start Friends */
 .friends-page {
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 @media (max-width: 767px) {
@@ -1214,13 +1214,13 @@ ul {
 }
 
 .friends-page .contact i {
-background-color: #eee;
-padding: 10px;
-border-radius: 50%;
-color: #666;
-font-size: 13px;
-cursor: pointer;
-transition: var(--main-transition);
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 50%;
+    color: #666;
+    font-size: 13px;
+    cursor: pointer;
+    transition: var(--main-transition);
 }
 
 .friends-page .contact i:hover {
@@ -1249,10 +1249,21 @@ transition: var(--main-transition);
     font-size: 40px;
     opacity: 0.2;
 }
-
 /* End Friends */
 
+/* Start Files */
+.files-page {
 
+}
+
+.files-page .file-stats{
+    
+}
+
+
+
+
+/* End Files */
 /* Start Animation */
 @keyframes change-color {
     from {
