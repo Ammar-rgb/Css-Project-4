@@ -59,6 +59,10 @@
     padding: 20px;
 }
 
+.pt-10 {
+    padding-top: 10px;
+}
+
 .pt-15 {
     padding-top: 15px;
 }
@@ -209,6 +213,10 @@
 /* Start Position */
 .p-relative {
     position: relative;
+}
+
+.p-absolute {
+    position: absolute;
 }
 
 .over-h {
